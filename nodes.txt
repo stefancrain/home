@@ -1,0 +1,13 @@
+c424c7f2830a6de6ece0367a06c35b66e309f
+
+set service dhcp-server shared-network-name LAN subnet 10.10.0.0/20 static-mapping k8s-master-0 ip-address '10.10.11.10'
+set service dhcp-server shared-network-name LAN subnet 10.10.0.0/20 static-mapping k8s-master-0 mac-address '1c:69:7a:6c:ee:be'
+
+set service dhcp-server shared-network-name LAN subnet 10.10.0.0/20 static-mapping k8s-worker-0 ip-address '10.10.11.20'
+set service dhcp-server shared-network-name LAN subnet 10.10.0.0/20 static-mapping k8s-worker-0 mac-address '1c:69:7a:a3:e3:9d'
+
+set service dhcp-server shared-network-name LAN subnet 10.10.0.0/20 static-mapping k8s-worker-1 ip-address '10.10.11.21'
+set service dhcp-server shared-network-name LAN subnet 10.10.0.0/20 static-mapping k8s-worker-1 mac-address '1c:69:7a:a3:e4:74'
+
+set service dhcp-server shared-network-name LAN subnet 10.10.0.0/20 static-mapping k8s-worker-2 ip-address '10.10.11.22'
+set service dhcp-server shared-network-name LAN subnet 10.10.0.0/20 static-mapping k8s-worker-2 mac-address '1c:69:7a:a5:22:a1'
